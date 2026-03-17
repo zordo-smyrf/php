@@ -1,7 +1,3 @@
 <x-layout>
-    <x-slot:title>
-        {{ $title }} - site.com
-        </x-slot>
-
-        {{ $text }}
+	page content
 </x-layout>
