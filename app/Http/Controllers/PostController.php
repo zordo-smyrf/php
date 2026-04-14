@@ -8,10 +8,7 @@ use Illuminate\Support\Facades\DB;
 	public function index()
 	{
 			$userssss = DB::table('userssss')->get();
-			DB::enableQueryLog();
-			DB::table('usersss')->where('id', '>', 1)->get();
-			dump(DB::getQueryLog());
-
+			dump($userssss);
 
 	}
 }
