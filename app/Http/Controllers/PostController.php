@@ -5,10 +5,13 @@ use Illuminate\Support\Facades\DB;
 	
 	class PostController extends Controller
 {
-	public function show()
+	public function index()
 	{
-			$posts = DB::table('usersss')->get();
-			return view('usersss.index', compact('users'));
+			$userssss = DB::table('userssss')->get();
+			DB::enableQueryLog();
+			DB::table('usersss')->where('id', '>', 1)->get();
+			dump(DB::getQueryLog());
+
 
 	}
 }
