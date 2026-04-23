@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
 				'age'  => '25',
                 'salary'  => '70000',
                 'created_at'  => '2000-04-03',
-                'updated_at'  => '2004-05-04',
+                'updated_at '  => '2004-05-04',
 			],
             [
 				'name' => 'Jonh',

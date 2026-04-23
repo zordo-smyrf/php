@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\DB;
 	public function show()
 	{
 			$posts = DB::table('usersss')->get();
-			return view('usersss.index',compact('users'));
+			return view('usersss.index', compact('users'));
 
 	}
 }
