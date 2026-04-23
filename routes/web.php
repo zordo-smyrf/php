@@ -5,5 +5,5 @@ use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 
-Route::get('/usersss', [PostController::class, 'index']);
+Route::get('/usersss', [PostController::class,'index']);
 
