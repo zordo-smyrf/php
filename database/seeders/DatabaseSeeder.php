@@ -16,15 +16,16 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        	DB::table('usersss')->insert(
+        	DB::table('userssss')->insert(
             [
 				'name' => 'Mark',
 				'email'  => 'marklin2gmail.com',
 				'age'  => '25',
                 'salary'  => '70000',
                 'created_at'  => '2000-04-03',
-                'updated_at '  => '2004-05-04',
-			],
+                'updated_at'  => '2004-05-04',
+			]);
+            DB::table('userssss')->insert(
             [
 				'name' => 'Jonh',
 				'email'  => 'Jonhggl3gmail.com',
@@ -32,7 +33,8 @@ class DatabaseSeeder extends Seeder
                 'salary'  => '50000',
                 'created_at'  => '2000-05-04',
                 'updated_at'  => '2004-06-04',
-			],
+			]);
+            DB::table('userssss')->insert(
             [
 				'name' => 'Artem',
 				'email'  => 'artemdsll4gmail.com',
@@ -40,9 +42,24 @@ class DatabaseSeeder extends Seeder
                 'salary'  => '90000',
                 'created_at'  => '2000-06-05',
                 'updated_at'  => '2004-07-05',
-			],
-            
-            );
-
+			]);
+            DB::table('userssss')->insert(
+            [
+				'name' => 'Egor',
+				'email'  => 'egor231gmail.com',
+				'age'  => '20',
+                'salary'  => '60000',
+                'created_at'  => '2000-07-06',
+                'updated_at'  => '2004-08-06',
+			]);
+            DB::table('userssss')->insert(
+            [
+				'name' => 'Alex',
+				'email'  => 'alex44gmail.com',
+				'age'  => '22',
+                'salary'  => '30000',
+                'created_at'  => '2000-07-06',
+                'updated_at'  => '2004-08-06',
+			]);
     }
 }
