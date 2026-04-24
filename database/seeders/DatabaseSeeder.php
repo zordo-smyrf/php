@@ -61,5 +61,46 @@ class DatabaseSeeder extends Seeder
                 'created_at'  => '2000-07-06',
                 'updated_at'  => '2004-08-06',
 			]);
+
+            DB::table('postssss')->insert(
+            [
+				'title' => 'Hello',
+				'slug'  => 'World',
+				'likes'  => '100',
+                'created_at'  => '2000-08-07',
+                'updated_at'  => '2004-09-07',
+			]);
+            DB::table('postssss')->insert(
+            [
+				'title' => 'Hello',
+				'slug'  => 'World',
+				'likes'  => '200',
+                'created_at'  => '2000-08-07',
+                'updated_at'  => '2004-09-07',
+			]);
+            DB::table('postssss')->insert(
+            [
+				'title' => 'Hello',
+				'slug'  => 'World',
+				'likes'  => '50',
+                'created_at'  => '2000-08-07',
+                'updated_at'  => '2004-09-07',
+			]);
+            DB::table('postssss')->insert(
+            [
+				'title' => 'Hello',
+				'slug'  => 'World',
+				'likes'  => '150',
+                'created_at'  => '2000-08-07',
+                'updated_at'  => '2004-09-07',
+			]);
+            DB::table('postssss')->insert(
+            [
+				'title' => 'Hello',
+				'slug'  => 'World',
+				'likes'  => '300',
+                'created_at'  => '2000-08-07',
+                'updated_at'  => '2004-09-07',
+			]);
     }
 }
