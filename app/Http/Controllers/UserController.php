@@ -6,8 +6,8 @@ class UserController extends Controller
 {
     public function show1()
     {
-     $users = DB::table('userssss')->where('age', '=', 30)->orWhere(function($query){
-        $query->orwhere('salary', '=', 500)->orwhere('id', '>', 4);})->get();
+     $users = DB::table('userssss')->where('salary', '=', 500)->orWhere(function($query){
+        $query->orwhere('age', '=', 20)->orwhere('age', '=', 30);})->get();
 	 return view('post.show1', ['userssss' => $users]);
     }
     
