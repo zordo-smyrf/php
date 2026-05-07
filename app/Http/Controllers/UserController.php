@@ -6,7 +6,7 @@ class UserController extends Controller
 {
     public function show1()
     {
-     $users = DB::table('userssss')->where('id', '=', 3)->get();
+     $users = DB::table('userssss')->where('id', '<', 6)->get();
 	 return view('post.show1', ['userssss' => $users]);
     }
     
