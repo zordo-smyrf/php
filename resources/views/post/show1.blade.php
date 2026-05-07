@@ -3,7 +3,7 @@
 		<div>
 			<h2>{{ $user->name }}</h2>
 			<div>
-				{{ $user->email }}
+			    {{ $user->email }}
                 {{ $user->age }}
                 {{ $user->salary }}
                 {{ $user->created_at }}
